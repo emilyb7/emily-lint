@@ -9,13 +9,9 @@
   "author": "emilyb7",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "prettier": ">= 1",
-    "eslint-config-recommended": ">= 1"
+    "eslint": ">= 3"
   },
   "dependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-recommended": "^1.5.0",
-    "prettier": "^1.7.4"
+    "eslint": "^4.9.0"
   }
 }
