@@ -1,7 +1,5 @@
 module.exports = {
   env: { browser: true, node: true, es6: true },
-  extends: ["prettier", "eslint:recommended"],
-  plugins: ["prettier"],
   rules: {
     "array-bracket-spacing": ["error", "always"],
     camelcase: [error, { properties: "always" }],
@@ -9,8 +7,5 @@ module.exports = {
     quotes: ["error", "single"],
     semi: ["error", "never"],
     "object-curly-spacing": ["error", "always"]
-  },
-  parserOptions: {
-    ecmaVersion: 2016
   }
 };
