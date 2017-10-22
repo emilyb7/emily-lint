@@ -1,5 +1,5 @@
 {
-  "name": "emily-lint",
+  "name": "eslint-config-emily-lint",
   "version": "1.0.0",
   "description": "linter",
   "main": "index.js",
