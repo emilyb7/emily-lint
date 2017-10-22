@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 
 const { readFileSync, writeFile, } = require('fs')
-const { joinPath, } = require('path')
+const { join, } = require('path')
 
-const config = readFileSync(joinPath(__dirname, '.eslintrc'))
+const config = readFileSync(join(__dirname, '.eslintrc'))
 
 const targetDir = process.argv[2]
-const targetFile = joinPath(targetDir, '.eslintrc')
+const targetFile = join(targetDir, '.eslintrc')
 
 writeFile(targetFile, config, err => {
   if (err) {
