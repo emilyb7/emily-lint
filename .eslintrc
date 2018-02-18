@@ -12,5 +12,6 @@
   },
   parserOptions: {
     ecmaVersion: 2016
-  }
+  },
+  parser: "babel-eslint"
 }
